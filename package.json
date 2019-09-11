@@ -1,0 +1,31 @@
+{
+  "name": "aws-cdk-rest-api",
+  "version": "0.1.0",
+  "bin": {
+    "aws-cdk-rest-api": "bin/aws-cdk-rest-api.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "^1.8.0",
+    "@types/aws-lambda": "^8.10.31",
+    "@types/jest": "^24.0.18",
+    "aws-cdk": "^1.8.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.1.0",
+    "typescript": "~3.6.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.8.0",
+    "@aws-cdk/aws-lambda": "^1.8.0",
+    "@aws-cdk/core": "^1.8.0",
+    "aws-lambda": "^0.1.2",
+    "directory-tree": "^2.2.4",
+    "source-map-support": "^0.5.9"
+  }
+}
